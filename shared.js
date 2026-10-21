@@ -1,0 +1,4 @@
+document.querySelectorAll('.menu-toggle').forEach(b=>b.addEventListener('click',()=>{const nav=document.getElementById(b.getAttribute('aria-controls'));const open=nav.classList.toggle('open');b.setAttribute('aria-expanded',String(open));}));
+document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>{document.querySelector('.nav-links')?.classList.remove('open');document.querySelector('.menu-toggle')?.setAttribute('aria-expanded','false');}));
+document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>b.closest('dialog').close()));
+document.querySelectorAll('dialog').forEach(d=>d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close();}}));

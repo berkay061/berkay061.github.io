@@ -1,0 +1,21 @@
+RED BLOOD GITHUB PAGES PAKETİ
+
+Ana sayfa: https://berkay061.github.io/
+Light Paths: https://berkay061.github.io/light-paths/
+
+1. ZIP dosyasını çıkartın.
+2. GitHub'da berkay061/berkay061.github.io deposunu açın.
+3. Add file > Upload files seçin.
+4. Çıkardığınız klasörün İÇİNDEKİ dosya ve klasörleri birlikte yükleyin.
+   index.html deponun kökünde, app-ads.txt ile aynı seviyede olmalı.
+5. Commit changes ile kaydedin. Yayın tamamlanınca sayfayı yenileyin.
+
+Yüklenecekler: index.html, style.css, script.js, shared.css, shared.js,
+assets/, blog/, privacy/, light-paths/.
+
+Mevcut app-ads.txt ve kökteki gizlilik politikalarını KORUYUN.
+Bu paket o dosyaları içermez veya değiştirmez.
+YUKLEME_TR.txt dosyasını siteye yüklemeniz gerekmez.
+
+Özgün WebsiteDesigns dosyaları değiştirilmedi.
+Bu paket henüz internete yüklenmedi; yeni AAB gerektirmez.
