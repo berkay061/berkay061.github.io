@@ -10,7 +10,7 @@ Light Paths: https://berkay061.github.io/light-paths/
    index.html deponun kökünde, app-ads.txt ile aynı seviyede olmalı.
 5. Commit changes ile kaydedin. Yayın tamamlanınca sayfayı yenileyin.
 
-Yüklenecekler: index.html, style.css, script.js, shared.css, shared.js,
+Yüklenecekler: index.html, style.css, script.js, shared.css, shared.js, language.js,
 assets/, blog/, privacy/, light-paths/.
 
 Mevcut app-ads.txt ve kökteki gizlilik politikalarını KORUYUN.
@@ -19,3 +19,5 @@ YUKLEME_TR.txt dosyasını siteye yüklemeniz gerekmez.
 
 Özgün WebsiteDesigns dosyaları değiştirilmedi.
 Bu paket henüz internete yüklenmedi; yeni AAB gerektirmez.
+
+TR/EN düğmeleri tüm tanıtım sayfalarında bulunur. Dil tercihi aynı tarayıcıda saklanır.
