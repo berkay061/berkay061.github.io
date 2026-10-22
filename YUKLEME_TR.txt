@@ -1,23 +1,24 @@
-RED BLOOD GITHUB PAGES PAKETİ
+RED BLOOD — FOLD WEB SİTESİ GÜNCELLEMESİ
 
-Ana sayfa: https://berkay061.github.io/
-Light Paths: https://berkay061.github.io/light-paths/
+FOLD sayfası: https://berkay061.github.io/fold/
+Google Play: https://play.google.com/store/apps/details?id=com.redblood.fold
 
-1. ZIP dosyasını çıkartın.
-2. GitHub'da berkay061/berkay061.github.io deposunu açın.
-3. Add file > Upload files seçin.
-4. Çıkardığınız klasörün İÇİNDEKİ dosya ve klasörleri birlikte yükleyin.
-   index.html deponun kökünde, app-ads.txt ile aynı seviyede olmalı.
-5. Commit changes ile kaydedin. Yayın tamamlanınca sayfayı yenileyin.
+Bu klasörün İÇERİĞİNİ berkay061/berkay061.github.io deposunun köküne yükle.
+index.html ve app-ads.txt kökte; fold/index.html fold klasöründe olmalı.
+Klasörün kendisini ikinci bir alt klasör olarak yükleme.
+Mevcut gizlilik politikalarını ve diğer oyun dosyalarını silme.
 
-Yüklenecekler: index.html, style.css, script.js, shared.css, shared.js, language.js,
-assets/, blog/, privacy/, light-paths/.
+FOLD kartı artık tanıtım sayfasına gider. TR/EN dil tercihi korunur.
+Kâğıt manzaraları mevcut oyun görselleridir; ekranlar oyundan alınmıştır.
+app-ads.txt gönderdiğin yayıncı satırıyla hazırlanmıştır.
 
-Mevcut app-ads.txt ve kökteki gizlilik politikalarını KORUYUN.
-Bu paket o dosyaları içermez veya değiştirmez.
-YUKLEME_TR.txt dosyasını siteye yüklemeniz gerekmez.
+22 Ekim 2026 kontrolünde canlı app-ads.txt HTTP 200 döndü ve satır birebir eşleşti.
+Google Play geliştirici web sitesi https://berkay061.github.io olarak göründü.
+AdMob uyuşmazlığının kesin nedeni bu kontrollerle belirlenemedi.
+Yükleme tamamlandıktan sonra AdMob'da Güncellemeleri kontrol edin düğmesini kullan.
+AdMob'un son tarama zamanını kontrol et; değişikliklerin yansıması zaman alabilir.
+Yalnızca https://berkay061.github.io/fold/ sayfasını açmak doğrulama sağlamaz;
+reklam dosyasının adresi https://berkay061.github.io/app-ads.txt olmalıdır.
 
-Özgün WebsiteDesigns dosyaları değiştirilmedi.
-Bu paket henüz internete yüklenmedi; yeni AAB gerektirmez.
-
-TR/EN düğmeleri tüm tanıtım sayfalarında bulunur. Dil tercihi aynı tarayıcıda saklanır.
+Bu paket yerel olarak hazırlanmıştır; GitHub yayını otomatik yapılmadı.
+Yeni AAB gerektirmez. YUKLEME_TR.txt dosyasını siteye yüklemek gerekmez.
