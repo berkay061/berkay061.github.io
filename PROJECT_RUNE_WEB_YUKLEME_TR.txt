@@ -1,0 +1,63 @@
+PROJECT RUNE / DISCVERSE WEB GÜNCELLEMESİ — 23 EKİM 2026
+
+Yapılanlar:
+- project-rune/ klasöründe yeni Türkçe/İngilizce tanıtım sayfası.
+- Oyunun mevcut tanıtım görseli ve gerçek oyun ekranları kullanıldı.
+- Ana sayfada Project Rune artık kendi tanıtım sayfasına gidiyor.
+- Project Rune ve Discverse kartlarına Google Play'de etiketleri eklendi.
+- Discverse tanıtım sayfasında yayın durumu ve indirme metinleri güncellendi.
+- Filtre sonuçları ve İngilizce çevirileri dört yayındaki oyunu kapsıyor.
+
+YÜKLEME
+berkay061/berkay061.github.io deposunun kökünde aşağıdakileri güncelle:
+  index.html
+  script.js
+  language.js
+  discverse/index.html
+  project-rune/ (altındaki tüm dosyalar ve assets/ klasörüyle birlikte)
+
+Diğer dosyaları silme. Güncelleme mevcut siteye eklenir, tam site yerine geçmez.
+project-rune/ sayfası mevcut assets/rune-feature.webp ve assets/rune-game.webp
+dosyalarını da kullanır; bunlar sitenin assets/ klasöründe korunmalıdır.
+Bu not dosyasını web sitesine yüklemek gerekmez.
+
+Yayın sonrası kontrol:
+https://berkay061.github.io/project-rune/
+https://berkay061.github.io/discverse/
+https://berkay061.github.io/
+TR/EN düğmelerini, oyun kartlarını ve Google Play indirme bağlantılarını dene.
+Tarayıcı eski görünümü saklıyorsa sayfayı zorla yenile.
+
+ADMOB DOĞRULAMASI
+23 Ekim kontrolünde https://berkay061.github.io/app-ads.txt HTTP 200 döndü.
+İçeriği doğru: google.com, pub-6156096103377612, DIRECT, f08c47fec0942fa0
+Dosya değiştirilmedi; robots.txt 404 sonucu tek başına tarama engeli değildir.
+Project Rune'un herkese açık Play sayfasında gizlilik politikası bağlantısı var,
+fakat geliştirici Web sitesi bağlantısı görünmüyor. Bu, düzeltilmesi gereken
+bir eksikliktir; AdMob hesabının tarama ayrıntılarına erişilmediği için hatanın
+tek sebebinin bu olduğu kesinleştirilmedi.
+
+Play Console > Kullanıcı sayısını artırın > Mağaza varlığı > Mağaza ayarları >
+Mağaza girişi iletişim bilgileri > Web sitesi:
+https://berkay061.github.io/
+
+Kaydet, gerekiyorsa değişikliği incelemeye/yayına gönder. Herkese açık mağazanın
+Uygulama desteği bölümünde Web sitesi bağlantısı görünmeli. Gizlilik politikası
+adresi farklı alandır; onu değiştirme. Bu işlem için yeni AAB gerekmez.
+Ardından AdMob > Project Rune > Verify app > Güncellemeleri kontrol edin.
+Google, yeni web sitesi bilgisinin algılanması/taranması için en az 24 saat
+beklemeyi önerir; bazı durumlarda daha uzun sürebilir. Hata devam ederse
+AdMob'un app-ads.txt sekmesinde taradığı URL'yi ve son tarama zamanını kontrol et.
+Doğrulama sonrası uygulama hazırlık incelemesi ayrıca tamamlanmalıdır.
+
+IARC
+Live Rating Notice, içerik derecelendirmelerinin yayımlandığını bildirir;
+AdMob onayı veya tüm yayın/politika kontrollerinin onayı anlamına gelmez.
+Anket doğruysa bu e-posta için ayrıca cevap/ödeme gerekmez. Derecelendirmeyi
+etkileyecek içerik değişirse anketi güncelle; yanlış değerlendirme varsa incele.
+
+YEREL KONTROLLER
+Yeni sayfa masaüstünde ve 390/320 piksel genişliğinde görsel kontrol edildi.
+TR/EN, ana sayfa filtreleri, SSS açılması ve yerel bağlantılar kontrol edildi.
+JavaScript sözdizimi kontrolleri geçti. Oyun/AAB dosyaları değiştirilmedi.
+Bu güncelleme sadece yerel dosyalarda hazırlandı; otomatik yükleme yapılmadı.
