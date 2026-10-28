@@ -3,6 +3,7 @@
   Object.assign(translations, {"FOLD tanıtım sayfasını aç":"Open the FOLD game page", "FOLD kâğıt dünyası":"FOLD paper landscape"});
   Object.assign(translations, {"Discverse tanıtım sayfasını aç":"Open the Discverse game page", "Project Rune tanıtım sayfasını aç":"Open the Project Rune game page"});
   Object.assign(translations, {"Pipshot tanıtım sayfasını aç": "Open the Pipshot game page", "Yayını kuşan. Kahramanını geliştir. Her atışı bir maceraya dönüştür.": "Equip your bow. Build your hero. Make every shot an adventure."});
+  Object.assign(translations, {"Chain tanıtım sayfasını aç":"Open the CHAIN game page"});
   const originals = new WeakMap();
   const attrOriginals = new WeakMap();
   const key = 'redblood-language';
