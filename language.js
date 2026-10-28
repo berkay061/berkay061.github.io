@@ -13,8 +13,8 @@
   function translate(text) {
     if (language === 'tr') return text;
     if (translations[text]) return translations[text];
-    const count = text.match(/^(\d+) oyun gösteriliyor\. Project Rune, Discverse, Light Paths, FOLD ve Pipshot Google Play’de\. Diğer oyunların erişim bilgileri için bize yazabilirsin\.$/);
-    if (count) return `${count[1]} games shown. Project Rune, Discverse, Light Paths, FOLD and Pipshot are on Google Play. Contact us for access to our other games.`;
+    const count = text.match(/^(\d+) oyun gösteriliyor\. Project Rune, Discverse, Light Paths, Chain, FOLD ve Pipshot Google Play’de\.$/);
+    if (count) return `${count[1]} games shown. Project Rune, Discverse, Light Paths, Chain, FOLD and Pipshot are on Google Play.`;
     for (const [suffix, replacement] of [[' detaylarını aç', ' details'], [' oyun görseli', ' artwork'], [' görseli', ' artwork']]) {
       if (text.endsWith(suffix)) return (suffix.includes('detay') ? 'Open ' : '') + text.slice(0, -suffix.length) + replacement;
     }
