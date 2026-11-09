@@ -1,0 +1,19 @@
+BLOSSOM WEB GÜNCELLEMESİ — 9 KASIM 2026
+
+Sitenin bağlı olduğu GitHub deposunun KÖKÜNE şu dosyaları yükle:
+  blossom-privacy.html          (yeni dosya, kökte)
+  privacy/index.html            (mevcut dosyanın üzerine yaz; Blossom kartı eklendi)
+
+Başka hiçbir dosyayı silme veya değiştirme. app-ads.txt zaten doğru
+(google.com, pub-6156096103377612, DIRECT, f08c47fec0942fa0) ve Blossom için de geçerli.
+
+Yayından sonra açılması gereken adresler:
+  https://redbloodgames.com/blossom-privacy.html
+  https://redbloodgames.com/privacy/
+
+AdMob > Gizlilik ve mesajlaşma > GDPR mesajı > "Düzelt" > gizlilik politikası URL'si:
+  https://redbloodgames.com/blossom-privacy.html
+Aynı URL Play Console > Uygulama içeriği > Gizlilik politikası alanına da girilir.
+Oyunda Ayarlar > Privacy policy satırı da bu adresi açar.
+
+Bu klasör yerel olarak hazırlandı; siteye otomatik yüklenmedi.
